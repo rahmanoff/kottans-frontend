@@ -12,13 +12,13 @@ Kottans - 2022 FrontEnd Course
 
 <summary>Screenshoots:</summary>
 
-- screen 1 Coursera:
+- screen 1 - oursera Week 1:
 ![screen 1 - ](task_git_collaboration/git-collaboration2.jpg)
 
-- screen 2 Corsera:
+- screen 2 - Corsera Week 2:
 ![screen 2 - ](task_git_collaboration/git-collaboration3.jpg)
 
-- screen 3 Udacity:
+- screen 3 - Udacity:
 ![screen 5 - ](task_git_collaboration/git-collaboration6.jpg)
 
 </details>
@@ -51,6 +51,7 @@ Knowing of such commands give you more control of your machine and helps do cli 
 </details>
 
 ---
+
 ## GIT Collaboration
 
 - [x] Done! :tada:
@@ -61,11 +62,11 @@ Did some Git Collaboration before, but it was all around 'git init', 'git clone'
 
 <summary>Screenshoots:</summary>
 
-- screen 1 Coursera:
-![screen 1 - ]()
+- screen 1 Coursera Week 3:
+![screen 1 - ](task_git_collaboration/git-collaboration7.jpg)
 
-- screen 2 Coursera:
-![screen 2 - ]()
+- screen 2 Coursera Week 4:
+![screen 2 - ](task_git_collaboration/git-collaboration8.jpg)
 
 - screen 3:
 ![screen 3 - ](task_git_collaboration/git-collaboration4.jpg)
@@ -77,85 +78,104 @@ Did some Git Collaboration before, but it was all around 'git init', 'git clone'
 
 <details>
 
-<summary>Commands:</summary>
-git remote -v
-<br>
-git remote show origin
-<br>
-git branch -r
+<summary>Git Commands:</summary>
+
+- git remote -v - List remote repos verbosely
+
+- git remote show origin - Describes a single remote
+
+- git branch -r - List remote branches
+
+- git log origin/main
+
+- git log -p
+
+- git checkout -b 'name' - Create branch 'name' and checkout to it
+
+- git push -u origin 'name' - Push branch 'name' in origin repo
+
+- git push --delete origin 'name' - Delete origin branch 'name'
+
+- git branch -d 'name' - Delete local branch 'name'
+
+- git rebase -i 'branch' - Squash Changes in one commit (pick/squash/drop)
+
+- git push -f - Force Push to change origin
+
+- git commit -a --amend - Change previous commit
+
 </details>
 
 ---
 
 ## Intro to HTML and CSS
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
 
 ## Responsive Web Design
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
 
 ## HTML & CSS Practice
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
 
 ## JS Basics
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
 
 ## DOM
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
 
 ## Building a Tiny JS World (pre-OOP)
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
 
 ## Object oriented JS
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
 
 ## OOP exercise - practice
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
 
 ## Offline Web Applications
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
 
 ## Memory pair game — real project
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
 
 ## Website Performance Optimization
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
 
 ## Friends App - real project
 
-- [ ] ToDo
+- [ ] ToDo!
 
 ---
-
