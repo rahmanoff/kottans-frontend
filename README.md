@@ -51,3 +51,110 @@ Knowing of such commands give you more control of your machine and helps do cli 
 </details>
 
 ---
+## GIT Collaboration
+
+- [x] Done! :tada:
+
+Did some Git Collaboration before, but it was all around 'git init', 'git clone', 'git pull' and 'git push'. Now I feel more comfortable with branches and commits "adventures".
+
+<details>
+
+<summary>Screenshoots:</summary>
+
+- screen 1 Coursera:
+![screen 1 - ]()
+
+- screen 2 Coursera:
+![screen 2 - ]()
+
+- screen 3:
+![screen 3 - ](task_git_collaboration/git-collaboration4.jpg)
+
+- screen 4:
+![screen 4 - ](task_git_collaboration/git-collaboration5.jpg)
+
+</details>
+
+<details>
+
+<summary>Commands:</summary>
+git remote -v
+<br>
+git remote show origin
+<br>
+git branch -r
+</details>
+---
+
+## Intro to HTML and CSS
+
+- [ ] ToDo
+
+---
+
+## Responsive Web Design
+
+- [ ] ToDo
+
+---
+
+## HTML & CSS Practice
+
+- [ ] ToDo
+
+---
+
+## JS Basics
+
+- [ ] ToDo
+
+---
+
+## DOM
+
+- [ ] ToDo
+
+---
+
+## Building a Tiny JS World (pre-OOP)
+
+- [ ] ToDo
+
+---
+
+## Object oriented JS
+
+- [ ] ToDo
+
+---
+
+## OOP exercise - practice
+
+- [ ] ToDo
+
+---
+
+## Offline Web Applications
+
+- [ ] ToDo
+
+---
+
+## Memory pair game — real project
+
+- [ ] ToDo
+
+---
+
+## Website Performance Optimization
+
+- [ ] ToDo
+
+---
+
+## Friends App - real project
+
+- [ ] ToDo
+
+---
+
