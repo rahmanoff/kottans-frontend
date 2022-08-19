@@ -123,6 +123,8 @@ Did some Git Collaboration before, but it was all around 'git init', 'git clone'
 
 - [x] Done! :tada:
 
+Most of information was not new for me. But it was good opportunity to remind and did some structure.
+
 <details>
 
 <summary>Screenshoots:</summary>
@@ -166,7 +168,7 @@ html:
 ```text
 css:
 
-inline, internal, external
+Styling: inline, internal, external
 
 :nth-child(number)
 Last Declaration Wins!
@@ -221,7 +223,132 @@ Bootstrap Grid:
 
 ## Responsive Web Design
 
-- [ ] ToDo!
+- [x] Done!
+
+- FLexBox Demo - [Link](https://rahmanoff.github.io/flex)
+- Grid Demo - [Link](https://rahmanoff.github.io/grid)
+
+<details>
+
+<summary>Screenshoots:</summary>
+
+- screen 1 FlexBox Froggy:
+
+![screen 1 - ](task_responsive_web_design/task_responsive_web_design1.jpg)
+
+![screen 2 - ](task_responsive_web_design/task_responsive_web_design2.jpg)
+
+- screen:
+
+![screen - ]()
+
+![screen - ]()
+
+- screen :
+
+![screen - ]()
+
+- screen:
+
+![screen - ]()
+
+</details>
+
+<details>
+
+<summary>To remember:</summary>
+
+```text
+Modern CSS - FLexbox, Grid, Multicol.
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+Media queries based on vieport size:
+- width (min-width, max-width)
+- height (min-height, max-height)
+- orientation
+- aspect-ratio
+
+Media Queries basrd on device capability:
+- hover
+- pointer
+- any-hover
+- any-pointer
+
+Breakpoints.
+Classic theory - column should contain 70 to 80 characters per line.
+
+- FLEX -
+
+Flex-direction:
+row (default),
+row-reverse,
+column,
+column-reverse.
+
+Justify-content (horizontal):
+flex-start (default),
+flex-end,
+center,
+space-between,
+space-around,
+space-evenly.
+
+Align-items (vertical, determines how the items as a whole are aligned within the container):
+flex-start,
+flex-end,
+center,
+baseline,
+stretch (default).
+
+For individual item (or class) - Align-self:
+flex-start,
+flex-end,
+center,
+baseline,
+stretch.
+
+Flex-wrap:
+nowrap (default),
+wrap,
+wrap-reverse.
+
+Align-content (determine the spacing between lines, when there is only one line align-content has NO effect):
+flex-start,
+flex-end,
+center,
+space-between,
+space-around,
+space-evenly,
+stretch (default).
+
+- GRID - 
+
+grid-template-columns: 30% minmax(150px, 1fr) auto;
+' fr can't be min!'
+grid-template-rows: 30% 50% auto
+grid template-areas: 'header header'
+                      aside content'
+.grid-header {
+    grid-area: header;
+}
+and so on
+
+grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end;
+
+grid-template-columns: repeat(8, 12.5%);
+
+mixed:
+grid-template-columns: 100px 3em 40%;
+
+grid-template: 1fr 50px / 20% 1fr;
+
+```
+
+</details>
 
 ---
 
