@@ -223,7 +223,7 @@ Bootstrap Grid:
 
 ## Responsive Web Design
 
-- [x] Done!
+- [x] Done! :tada:
 
 - FLexBox Demo - [Link](https://rahmanoff.github.io/flex)
 - Grid Demo - [Link](https://rahmanoff.github.io/grid)
@@ -236,21 +236,9 @@ Bootstrap Grid:
 
 ![screen 1 - ](task_responsive_web_design/task_responsive_web_design1.jpg)
 
+- screen 2 Grid Garden:
+
 ![screen 2 - ](task_responsive_web_design/task_responsive_web_design2.jpg)
-
-- screen:
-
-![screen - ]()
-
-![screen - ]()
-
-- screen :
-
-![screen - ]()
-
-- screen:
-
-![screen - ]()
 
 </details>
 
@@ -345,7 +333,6 @@ mixed:
 grid-template-columns: 100px 3em 40%;
 
 grid-template: 1fr 50px / 20% 1fr;
-
 ```
 
 </details>
