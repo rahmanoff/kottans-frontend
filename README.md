@@ -360,8 +360,6 @@ grid-template: 1fr 50px / 20% 1fr;
 
 - [ ] ToDo!
 
-- JS Intro
-
 - Basic JS
 
 - ES6 Challenges
@@ -383,6 +381,10 @@ grid-template: 1fr 50px / 20% 1fr;
 ![screen 1 - ](task_js_basics/task_js_basics1.jpg)
 
 ![screen 2 - ](task_js_basics/task_js_basics2.jpg)
+
+- screen 2 freeCodeCamp - Basic JavaScript
+
+![screen 3 - ](task_js_basics/task_js_basics3.jpg)
 
 </details>
 
