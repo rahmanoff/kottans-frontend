@@ -176,7 +176,10 @@ Style | ID | Class, pseudo-class-attribute | Number of Elements
 text-transform: capitalize;
 
 12-Column Grid Responsive Layout can be divided by 1,2,3,4,5,12
+
+```html
 <meta name='viewport' content='width=device-width, initial-scale=1'>
+```
 
 **Selectors**: type, class, id, attributes, pseudo-class.
 **Specificity**: id, class, type.
@@ -244,9 +247,9 @@ Bootstrap Grid:
 
 <summary>To remember:</summary>
 
-```text
 Modern CSS - FLexbox, Grid, Multicol.
 
+```text
 img {
     max-width: 100%;
     display: block;
@@ -314,14 +317,18 @@ stretch (default).
 
 - GRID - 
 
-grid-template-columns: 30% minmax(150px, 1fr) auto;
-' fr can't be min!'
-grid-template-rows: 30% 50% auto
-grid template-areas: 'header header'
+**grid-template-columns**: 30% minmax(150px, 1fr) auto;
+'fr can't be min!'
+**grid-template-rows**: 30% 50% auto
+
+```css
+grid-template-areas: 'header header'
                       aside content'
 .grid-header {
     grid-area: header;
 }
+```
+
 and so on
 
 grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end;
@@ -340,6 +347,8 @@ grid-template: 1fr 50px / 20% 1fr;
 ## HTML & CSS Practice
 
 - [ ] ToDo!
+
+**Hooli Style PopUp**
 
 [Demo](https://rahmanoff.github.io/hooli-style-popup)
 
@@ -364,6 +373,18 @@ grid-template: 1fr 50px / 20% 1fr;
 - Functional Programming
 
 - Algorithm Scripting Challenges
+
+<details>
+
+<summary>Screenshoots:</summary>
+
+- screen 1 Coursera - Introduction to JavaScript:
+
+![screen 1 - ](task_js_basics/task_js_basics1.jpg)
+
+![screen 2 - ](task_js_basics/task_js_basics2.jpg)
+
+</details>
 
 <details>
 
@@ -394,11 +415,72 @@ var stockPropName = "stock of company";
 company[stockPropkName] = 110;
 ```
 
+```JS
+var facebook = {
+    name: 'Facebook',
+    ceo: {
+        firstName: 'Mark',
+        favColor: 'blue'
+    },
+    'stock of company': 110
+}
+```
+
+function = Object
+
+In JS:
+PRIMITIVES are passed by VALUE,
+OBJECTS are passed by REFERENCE.
+
+```JS
+// Function constructors
+function Circle(radius) {
+    this.radius = radius;
+};
+Circle.prototype.getArea = function () {
+    return Math.PI * Math.pow(this.radius, 2);
+}
+
+var myCircle = new Circle(10);
+```
+
+```JS
+// Object literals and 'this'
+var literalCircle = {
+    radius: 10,
+
+    getArrea: function () {
+        var self = this;
+        console.log(this);
+
+        var increaseRadius = function () {
+            self.radius = 20;
+        };
+        increaseRadius();
+        console.log(this.radius);
+
+        return Math.PI * Math.pow(this.radius, 2);
+    };
+};
+```
+
+```JS
+// Arrays
+var array = new Array();
+var array = [];
+
+// Immediately Invoked Function Expression - IIFE
+(function () {
+    console.log('Hello JS-World!');
+})();
+
+```
+
 </details>
 
 ---
 
-## DOM
+## DOM––
 
 - [ ] ToDo!
 
