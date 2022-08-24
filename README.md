@@ -165,8 +165,7 @@ html:
 'non breakong space' = &nbsp;
 ```
 
-```text
-css:
+**css:**
 
 Styling: inline, internal, external
 
@@ -179,27 +178,27 @@ text-transform: capitalize;
 12-Column Grid Responsive Layout can be divided by 1,2,3,4,5,12
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-Selectors: type, class, id, attributes, pseudo-class.
-Specificity: id, class, type.
-Best practice - type, class, id.
-Chaining: h2.special - for every 'h2' with class 'special'.
+**Selectors**: type, class, id, attributes, pseudo-class.
+**Specificity**: id, class, type.
+**Best practice** - type, class, id.
+**Chaining**: h2.special - for every 'h2' with class 'special'.
 
 'li h4' is more specific than 'h4'!
 
-Border - width (px or thin, medium, thick), style (none, doted, solid and 7 more), color (# or 140 buil-in).
+**Border** - width (px or thin, medium, thick), style (none, doted, solid and 7 more), color (# or 140 buil-in).
 
-Overflow - hidden, scroll, visible.
+**Overflow** - hidden, scroll, visible.
 
-Visibility - hidden, visible, collapse.
+**Visibility** - hidden, visible, collapse.
 
-Position - static (default), relative, absolute, fixed, sticky.
+**Position** - static (default), relative, absolute, fixed, sticky.
 Relative - top, bottom, right, left.
 Absolute - top, bottom, right, left inside parent.
 Fixed - top, bottom, right, left, like sticky header.
 Static, Relative, Sticky - in flow of document.
 Fixed and Absolut - out of flow of document.
 
-Display - inline, block, inline-block.
+**Display** - inline, block, inline-block.
 
 Float - left, right.
 
@@ -209,7 +208,6 @@ HSL - Hue, Saturation, Lightness
 
 Hue: red = 0, green = 120, blue = 240
 
-```
 
 Bootstrap Grid:
 
@@ -253,31 +251,32 @@ img {
     max-width: 100%;
     display: block;
 }
+```
 
-Media queries based on vieport size:
+**Media queries based on vieport size**:
 - width (min-width, max-width)
 - height (min-height, max-height)
 - orientation
 - aspect-ratio
 
-Media Queries basrd on device capability:
+**Media Queries basrd on device capability**:
 - hover
 - pointer
 - any-hover
 - any-pointer
 
-Breakpoints.
+**Breakpoints**.
 Classic theory - column should contain 70 to 80 characters per line.
 
 - FLEX -
 
-Flex-direction:
+**Flex-direction**:
 row (default),
 row-reverse,
 column,
 column-reverse.
 
-Justify-content (horizontal):
+**Justify-content** (horizontal):
 flex-start (default),
 flex-end,
 center,
@@ -285,26 +284,26 @@ space-between,
 space-around,
 space-evenly.
 
-Align-items (vertical, determines how the items as a whole are aligned within the container):
+**Align-items** (vertical, determines how the items as a whole are aligned within the container):
 flex-start,
 flex-end,
 center,
 baseline,
 stretch (default).
 
-For individual item (or class) - Align-self:
+For individual item (or class) - **Align-self**:
 flex-start,
 flex-end,
 center,
 baseline,
 stretch.
 
-Flex-wrap:
+**Flex-wrap**:
 nowrap (default),
 wrap,
 wrap-reverse.
 
-Align-content (determine the spacing between lines, when there is only one line align-content has NO effect):
+**Align-content** (determine the spacing between lines, when there is only one line align-content has NO effect):
 flex-start,
 flex-end,
 center,
@@ -333,7 +332,6 @@ mixed:
 grid-template-columns: 100px 3em 40%;
 
 grid-template: 1fr 50px / 20% 1fr;
-```
 
 </details>
 
@@ -352,6 +350,51 @@ grid-template: 1fr 50px / 20% 1fr;
 ## JS Basics
 
 - [ ] ToDo!
+
+- JS Intro
+
+- Basic JS
+
+- ES6 Challenges
+
+- Basic Data Structures
+
+- Basic Algorithm Scripting
+
+- Functional Programming
+
+- Algorithm Scripting Challenges
+
+<details>
+
+<summary>To remember:</summary>
+
+**JS Data Types** (6 primitives and 1 Object)
+
+**Object** = collection of name + value pairs.
+
+**Primitive** = single, immutble value.
+
+**Boolean**: true or false.
+**Undefined**: no value has never been set. var x, console.log(x) = undefined.
+**Null**: no value.
+**Number**: double-precision 64-bit floating point.
+**String**: sequnce of characters.
+**Symbol**: from ES6.
+
+**false** || null || undefined || "" || 0 || NaN
+**true** && "hello" && 1 && -1 && "false"
+
+Boolean(null) = false
+
+```JS
+var comapany = new Object();
+company.name = "Facebook";
+var stockPropName = "stock of company";
+company[stockPropkName] = 110;
+```
+
+</details>
 
 ---
 
