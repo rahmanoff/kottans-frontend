@@ -69,11 +69,11 @@ Did some Git Collaboration before, but it was all around 'git init', 'git clone'
 
 <summary>Screenshoots:</summary>
 
-- screen 1 Coursera Week 3:
+- screen 1 - Coursera Week 3:
 
 ![screen 1 - ](task_git_collaboration/git-collaboration7.jpg)
 
-- screen 2 Coursera Week 4:
+- screen 2 - Coursera Week 4:
 
 ![screen 2 - ](task_git_collaboration/git-collaboration8.jpg)
 
@@ -129,23 +129,23 @@ Most of information was not new for me. But it was good opportunity to remind an
 
 <summary>Screenshoots:</summary>
 
-- screen 1 Coursera Week 1:
+- screen 1 - Coursera Week 1:
 
 ![screen 1 - ](task_html_css_intro/task_html_css_intro1.jpg)
 
 ![screen 2 - ](task_html_css_intro/task_html_css_intro2.jpg)
 
-- screen 2 Coursera Week 2:
+- screen 2 - Coursera Week 2:
 
 ![screen 3 - ](task_html_css_intro/task_html_css_intro3.jpg)
 
 ![screen 4 - ](task_html_css_intro/task_html_css_intro4.jpg)
 
-- screen 3 codeacademy HTML:
+- screen 3 - codeacademy HTML:
 
 ![screen 5 - ](task_html_css_intro/task_html_css_intro5.jpg)
 
-- screen 4 codeacademy CSS:
+- screen 4 - codeacademy CSS:
 
 ![screen 6 - ](task_html_css_intro/task_html_css_intro6.jpg)
 
@@ -233,11 +233,11 @@ Bootstrap Grid:
 
 <summary>Screenshoots:</summary>
 
-- screen 1 FlexBox Froggy:
+- screen 1 - FlexBox Froggy:
 
 ![screen 1 - ](task_responsive_web_design/task_responsive_web_design1.jpg)
 
-- screen 2 Grid Garden:
+- screen 2 - Grid Garden:
 
 ![screen 2 - ](task_responsive_web_design/task_responsive_web_design2.jpg)
 
@@ -376,15 +376,19 @@ grid-template: 1fr 50px / 20% 1fr;
 
 <summary>Screenshoots:</summary>
 
-- screen 1 Coursera - Introduction to JavaScript:
+- screen 1 - Coursera - Introduction to JavaScript:
 
 ![screen 1 - ](task_js_basics/task_js_basics1.jpg)
 
 ![screen 2 - ](task_js_basics/task_js_basics2.jpg)
 
-- screen 2 freeCodeCamp - Basic JavaScript
+- screen 2 - freeCodeCamp - Basic JavaScript
 
 ![screen 3 - ](task_js_basics/task_js_basics3.jpg)
+
+- screen 3 - freeCodeCamp - ES6:
+
+![screen 4 - ](task_js_basics/task_js_basics4.jpg)
 
 </details>
 
@@ -399,13 +403,19 @@ grid-template: 1fr 50px / 20% 1fr;
 **Primitive** = single, immutble value.
 
 **Boolean**: true or false.
+
 **Undefined**: no value has never been set. var x, console.log(x) = undefined.
+
 **Null**: no value.
+
 **Number**: double-precision 64-bit floating point.
+
 **String**: sequnce of characters.
+
 **Symbol**: from ES6.
 
 **false** || null || undefined || "" || 0 || NaN
+
 **true** && "hello" && 1 && -1 && "false"
 
 Boolean(null) = false
