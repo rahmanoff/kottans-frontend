@@ -360,12 +360,6 @@ grid-template: 1fr 50px / 20% 1fr;
 
 - [ ] ToDo!
 
-- Basic JS
-
-- ES6 Challenges
-
-- Basic Data Structures
-
 - Basic Algorithm Scripting
 
 - Functional Programming
@@ -389,6 +383,10 @@ grid-template: 1fr 50px / 20% 1fr;
 - screen 3 - freeCodeCamp - ES6:
 
 ![screen 4 - ](task_js_basics/task_js_basics4.jpg)
+
+- screen 4 - freeCodeCamp - Basic Data Structures:
+
+![screen 5 - ](task_js_basics/task_js_basics5.jpg)
 
 </details>
 
@@ -421,14 +419,14 @@ grid-template: 1fr 50px / 20% 1fr;
 Boolean(null) = false
 
 ```JS
-var comapany = new Object();
+let comapany = new Object();
 company.name = "Facebook";
-var stockPropName = "stock of company";
+let stockPropName = "stock of company";
 company[stockPropkName] = 110;
 ```
 
 ```JS
-var facebook = {
+let facebook = {
     name: 'Facebook',
     ceo: {
         firstName: 'Mark',
@@ -453,19 +451,19 @@ Circle.prototype.getArea = function () {
     return Math.PI * Math.pow(this.radius, 2);
 }
 
-var myCircle = new Circle(10);
+let myCircle = new Circle(10);
 ```
 
 ```JS
 // Object literals and 'this'
-var literalCircle = {
+let literalCircle = {
     radius: 10,
 
     getArrea: function () {
-        var self = this;
+        let self = this;
         console.log(this);
 
-        var increaseRadius = function () {
+        let increaseRadius = function () {
             self.radius = 20;
         };
         increaseRadius();
@@ -477,16 +475,81 @@ var literalCircle = {
 ```
 
 ```JS
-// Arrays
-var array = new Array();
-var array = [];
-
 // Immediately Invoked Function Expression - IIFE
 (function () {
     console.log('Hello JS-World!');
 })();
-
 ```
+
+```JS
+// Arrays
+let array = new Array();
+let array = [];
+
+Add items begin & end:
+array.unshift(); // to the beginning;
+array.push(); // to the end;
+
+
+Remove items begin & end:
+array.shift(); // from the beginning
+array.pop(); // from th end;
+
+Remove somewhere in array:
+array.splice(numStartIndex, numItemsToDelete);
+
+Remove and Add somewhere in array:
+array.splice(numStartIndex, numItems ToDelete, itemToAdd1, itemToAdd2, itemToAdd3,..., itemToAddN);
+
+Copy Array Items to Ner Array Using slice():
+array.slice(firstIndex, stopIndex); // Original array stays untoched
+
+Copy Array with Spread operator:
+let thisArray = [true, true, undefined, false, null];
+let thatArray = [...thisArray]; // Copy all from thisArray
+
+Array Iteration methods:
+every();
+forEach();
+map();
+```
+
+```JS
+Add Key-Value Pairs to JS Object:
+const tekkenCharacter = {
+    player: 'Hwoarang',
+    fightingStyle: 'Tae Kwon Doe',
+    human: true
+};
+
+tekkenCharacter.origin = 'South Korea';
+or
+tekkenCharacter['hair color'] = 'dyed orange';
+```
+
+```JS
+Delete property from Object:
+delete foods.apples
+```
+
+```JS
+Check if Object has a Property:
+users.hasOwnProperty('Alan');
+'Alan' in users;
+```
+
+```JS
+for in statement:
+for (let user in users) {
+    console.log(user);
+}
+```
+
+```JS
+Generate an Array of All Object Keys with Object.keys():
+return Object.keys(obj);
+```
+
 
 </details>
 
