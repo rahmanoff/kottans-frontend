@@ -388,6 +388,10 @@ grid-template: 1fr 50px / 20% 1fr;
 
 ![screen 5 - ](task_js_basics/task_js_basics5.jpg)
 
+- screen 5 - freeCodeCamp - Basic Algorithm Scripting:
+
+![screen 5 - ](task_js_basics/task_js_basics6.jpg)
+
 </details>
 
 <details>
