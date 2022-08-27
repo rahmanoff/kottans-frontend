@@ -211,7 +211,6 @@ HSL - Hue, Saturation, Lightness
 
 Hue: red = 0, green = 120, blue = 240
 
-
 Bootstrap Grid:
 
 ![Bootstrap Grid 1 - ](task_html_css_intro/bootstrap1.jpg)
@@ -257,12 +256,14 @@ img {
 ```
 
 **Media queries based on vieport size**:
+
 - width (min-width, max-width)
 - height (min-height, max-height)
 - orientation
 - aspect-ratio
 
 **Media Queries basrd on device capability**:
+
 - hover
 - pointer
 - any-hover
@@ -315,7 +316,7 @@ space-around,
 space-evenly,
 stretch (default).
 
-- GRID - 
+- GRID -
 
 **grid-template-columns**: 30% minmax(150px, 1fr) auto;
 'fr can't be min!'
@@ -346,7 +347,7 @@ grid-template: 1fr 50px / 20% 1fr;
 
 ## HTML & CSS Practice
 
-- [ ] ToDo!
+- [x] Done! :tada:
 
 **Hooli Style PopUp**
 
@@ -553,7 +554,6 @@ for (let user in users) {
 Generate an Array of All Object Keys with Object.keys():
 return Object.keys(obj);
 ```
-
 
 </details>
 
