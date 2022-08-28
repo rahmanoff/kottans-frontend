@@ -393,6 +393,10 @@ grid-template: 1fr 50px / 20% 1fr;
 
 ![screen 5 - ](task_js_basics/task_js_basics6.jpg)
 
+- screen 6 - freeCodeCamp - Functional Programming:
+
+![screen 6 - ](task_js_basics/task_js_basics7.jpg)
+
 </details>
 
 <details>
@@ -444,8 +448,8 @@ let facebook = {
 function = Object
 
 In JS:
-PRIMITIVES are passed by VALUE,
-OBJECTS are passed by REFERENCE.
+PRIMITIVES are passed by **VALUE**,
+OBJECTS are passed by **REFERENCE**.
 
 ```JS
 // Function constructors
@@ -513,7 +517,7 @@ Copy Array with Spread operator:
 let thisArray = [true, true, undefined, false, null];
 let thatArray = [...thisArray]; // Copy all from thisArray
 
-Array Iteration methods:
+**Array Iteration methods**:
 every();
 forEach();
 map();
@@ -553,6 +557,69 @@ for (let user in users) {
 ```JS
 Generate an Array of All Object Keys with Object.keys():
 return Object.keys(obj);
+```
+
+splice() - changes the Original Array!
+
+Functions in JS - **First Class Functions** - it can be used as any other Object:
+
+- 1. Saved in variable,
+- 2. Stored in an Object,
+- 3. Passed as Function Arguments.
+
+**.map** - method iterates over each item in an Array and returns a New Array, containing the results of calling the callback function on each element.
+
+```JS
+const users = [
+    {name: 'John', age: 34},
+    {name: 'Amy', age: 20},
+    {name: 'camperCat', age: 10}
+];
+
+const names = users.map(user => user.name);
+console.log(names)
+['John', 'Amy', 'camperCat']
+```
+
+**.filter** - calls a function on each element of an Array and returns a New Array containing elements for which that Function returns - true.
+
+```JS
+const users = [
+    {name: 'John', age: 34},
+    {name: 'Amy', age: 20},
+    {name: 'camperCat', age: 10}
+];
+
+const usersUnder30 = users.filter(user => user.age < 30);
+console.log(usersUnder30)
+[{name: 'Amy', age: 20}, {name: 'camperCat', age:10}];
+```
+
+```JS
+const users = [
+    {name: 'John', age: 34},
+    {name: 'Amy', age: 20},
+    {name: 'camperCat', age: 10}
+];
+
+const sumOfAges = users.reduce((sum, user) => sum + user.age, 0);
+console.log(sumOfAges);
+64
+```
+
+```JS
+const users = [
+    {name: 'John', age: 34},
+    {name: 'Amy', age: 20},
+    {name: 'camperCat', age: 10}
+];
+
+const usersObj = users.reduce((obj, user) => {
+    obj[user.name] = user.age;
+    return obj;
+}, {});
+console.log(usersObj);
+{John: 34, Amy: 20, camperCat: 10}
 ```
 
 </details>
