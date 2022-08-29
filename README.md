@@ -359,13 +359,7 @@ grid-template: 1fr 50px / 20% 1fr;
 
 ## JS Basics
 
-- [ ] ToDo!
-
-- Basic Algorithm Scripting
-
-- Functional Programming
-
-- Algorithm Scripting Challenges
+- [x] Done! :tada:
 
 <details>
 
@@ -391,11 +385,15 @@ grid-template: 1fr 50px / 20% 1fr;
 
 - screen 5 - freeCodeCamp - Basic Algorithm Scripting:
 
-![screen 5 - ](task_js_basics/task_js_basics6.jpg)
+![screen 6 - ](task_js_basics/task_js_basics6.jpg)
 
 - screen 6 - freeCodeCamp - Functional Programming:
 
-![screen 6 - ](task_js_basics/task_js_basics7.jpg)
+![screen 7 - ](task_js_basics/task_js_basics7.jpg)
+
+- screen 7 - freeCodeCamp - Algorithm Scripting Challenges:
+
+![screen 8 - ](task_js_basics/task_js_basics8.jpg)
 
 </details>
 
