@@ -628,6 +628,68 @@ console.log(usersObj);
 
 - [ ] ToDo!
 
+<details>
+
+<summary>Screenshoots:</summary>
+
+- screen 1 - Coursera - Document Object Model Manipulation:
+
+![screen 1 - ](./task_js_dom/task_js_dom1.jpg)
+
+- screen 2 - :
+
+![screen 2 - ]()
+
+- screen 3 - :
+
+![screen 3 - ]()
+
+- screen 4 - :
+
+![screen 4 - ]()
+
+- screen 5 - :
+
+![screen 5 - ]()
+
+- screen 6 - :
+
+![screen 6 - ]()
+
+- screen 7 - :
+
+![screen 7 - ]()
+
+</details>
+
+<details>
+
+<summary>To remember:</summary>
+
+```txt
+DOM - Document Object Model
+```
+
+```JS
+document.addEventListener('DOMContentLoaded',
+    function (event) {
+        document.querySelector('body')
+            .addEventListener('mousemove',
+                function (event) {
+                    if (event.shiftKey === true ) {
+                        console.log('x: ',event.clientX);
+                        console.log('y: ',event.clientY);
+                    }
+                }
+            );
+    };
+);
+
+document.querySelector('button').onClick = sayHello; // sayHello is a Function
+```
+
+</details>
+
 ---
 
 ## Building a Tiny JS World (pre-OOP)
