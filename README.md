@@ -636,9 +636,9 @@ console.log(usersObj);
 
 ![screen 1 - ](./task_js_dom/task_js_dom1.jpg)
 
-- screen 2 - :
+- screen 2 - freeCodeCamp - Algorithm Scripting Challenges (12-18):
 
-![screen 2 - ]()
+![screen 2 - ](./task_js_dom/task_js_dom2.jpg)
 
 - screen 3 - :
 
