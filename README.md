@@ -688,6 +688,27 @@ document.querySelector('button').onClick = sayHello; // sayHello is a Function
 
 - [ ] ToDo!
 
+- Demo - [Link](https://rahmanoff.github.io/frontend-nanodegree-arcade-game/)
+- Code - [Link](https://github.com/rahmanoff/frontend-nanodegree-arcade-game)
+
+<details>
+
+<summary>Screenshoots:</summary>
+
+- screen 1 - ООП 1 частина - Класси:
+
+![screen 1 - ](./task_js_oop/task_js_oop1.jpg)
+
+- screen 2 - ООП 2 частина - Прототипи:
+
+![screen 2 - ](./task_js_oop/task_js_oop2.jpg)
+
+- screen 3 - Codewars:
+
+![screen 3 - ](./task_js_oop/task_js_oop3.jpg)
+
+</details>
+
 ---
 
 ## OOP exercise - practice
