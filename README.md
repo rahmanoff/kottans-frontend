@@ -643,26 +643,6 @@ console.log(usersObj);
 
 ![screen 2 - ](./task_js_dom/task_js_dom2.jpg)
 
-- screen 3 - :
-
-![screen 3 - ]()
-
-- screen 4 - :
-
-![screen 4 - ]()
-
-- screen 5 - :
-
-![screen 5 - ]()
-
-- screen 6 - :
-
-![screen 6 - ]()
-
-- screen 7 - :
-
-![screen 7 - ]()
-
 </details>
 
 <details>
