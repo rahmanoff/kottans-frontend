@@ -624,7 +624,7 @@ console.log(usersObj);
 
 ---
 
-## DOM––
+## DOM
 
 - [x] :tada:!
 
