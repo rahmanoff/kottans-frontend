@@ -626,7 +626,7 @@ console.log(usersObj);
 
 ## DOM––
 
-- [ ] ToDo!
+- [x] :tada:!
 
 - Demo [Link](https://rahmanoff.github.io/js-dom/)
 - Code [Link](https://github.com/rahmanoff/js-dom)
