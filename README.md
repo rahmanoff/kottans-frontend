@@ -677,7 +677,7 @@ document.querySelector('button').onClick = sayHello; // sayHello is a Function
 
 ## Building a Tiny JS World (pre-OOP)
 
-- [ ] ToDo!
+- [x] :tada:!
 
 - Demo - [Link](https://rahmanoff.github.io/a-tiny-JS-world/)
 - Code - [Link](https://github.com/rahmanoff/a-tiny-JS-world)
