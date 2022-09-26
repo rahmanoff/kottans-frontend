@@ -1,6 +1,6 @@
 # kottans-frontend
 
-Kottans - 2022 FrontEnd Course  
+[Kottans - 2022 FrontEnd Course](https://github.com/kottans/frontend)
 
 ---
 
