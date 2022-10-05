@@ -686,7 +686,7 @@ document.querySelector('button').onClick = sayHello; // sayHello is a Function
 
 ## Object oriented JS
 
-- [x] :tada!
+- [x] :tada:!
 
 - Demo - [Link](https://rahmanoff.github.io/frontend-nanodegree-arcade-game/)
 - Code - [Link](https://github.com/rahmanoff/frontend-nanodegree-arcade-game)
