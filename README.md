@@ -178,7 +178,7 @@ text-transform: capitalize;
 12-Column Grid Responsive Layout can be divided by 1,2,3,4,5,12
 
 ```html
-<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 ```
 
 **Selectors**: type, class, id, attributes, pseudo-class.
@@ -713,7 +713,10 @@ document.querySelector('button').onClick = sayHello; // sayHello is a Function
 
 ## OOP exercise - practice
 
-- [ ] ToDo!
+- [x] :tada:!
+
+- Demo - [Link](https://rahmanoff.github.io/OOP-exercise/)
+- Code - [Link](https://github.com/rahmanoff/OOP-exercise)
 
 ---
 
